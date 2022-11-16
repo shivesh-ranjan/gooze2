@@ -1,9 +1,5 @@
 from flask import Flask
-
-
 app = Flask(__name__)
-
-
 def generate_html(message):
     html = """
         <html>
